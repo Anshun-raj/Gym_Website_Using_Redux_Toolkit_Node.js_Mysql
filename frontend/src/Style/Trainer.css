@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.trainer {
+  background-color: #ccc;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 639.5px;
+  flex-direction: column;
+}
+.trainer h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #fa5a20;
+}
+
+.trainer .trainerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 90%;
+  gap: 30px;
+}
+
+.trainer .trainerInfo .trainerCard {
+  background-color: #f9f9f9;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.trainer .trainerInfo .trainerCard .trainerImg {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.trainer .trainerInfo .trainerCard h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.trainer .trainerInfo .trainerCard .socialIcon {
+  display: flex;
+  flex-direction: row;
+}
+
+.trainer .trainerInfo .trainerCard .socialIcon i {
+  border: 2px solid #000;
+  padding: 5px;
+  margin: 10px 2px;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+
+.trainer .trainerInfo .trainerCard .socialIcon i:hover {
+  background-color: #fa5a20;
+  color: #fff;
+}
+
+.trainer .trainerInfo .trainerCard .btn {
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  background-color: blue;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+}

@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  height: 85vh;
+  display: block;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 44px;
+  padding: 10px 0;
+  color: #fa5a20;
+}
+
+.contact form {
+  display: block;
+  padding: 20px;
+  width: 40%;
+  min-height: 50%;
+  margin: auto;
+  border: 2px solid rgb(119, 119, 240);
+  border-radius: 5px;
+}
+
+.contact form input {
+  width: 90%;
+  height: 5vh;
+  margin: 15px 0;
+}
+
+.contact form select {
+  width: 90%;
+  height: 5vh;
+  color: grey;
+  margin: 15px 0;
+}
+
+.contact form input::placeholder,
+select::placeholder {
+  padding: 0 2px;
+}
+
+.contact form .btn5 {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(69, 69, 237);
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.5s all;
+  margin: 10px 0;
+}
+
+.contact form .btn5:hover {
+  background-color: rgb(74, 74, 74);
+}

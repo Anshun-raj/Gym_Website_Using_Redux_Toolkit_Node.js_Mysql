@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about{
+    background-color: #ccc;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 639.5px;
+    flex-direction: column;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 32px;
+    color: #fa5a20;
+}
+
+.about .aboutInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 85%;
+    height: 90%
+}
+
+.about .aboutInfo .aboutLeft{
+    width: 45%;
+    border: 2px solid red;
+    height: 90%;
+}
+
+.about .aboutInfo .aboutImg{
+    position: relative;
+    top: 2%;
+    left: 5%;
+    width: 99%;
+    height: 520px;
+    text-align: center;
+    border-radius: 5px solid #000;
+}
+
+.about .aboutInfo .aboutRight{
+    width: 45%;
+    height: 90%;
+}
+
+.about .aboutInfo .aboutRight h3{
+    font-size: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about .aboutInfo .aboutRight p{
+    padding: 10px 0;
+}
+
+.about .aboutInfo .aboutRight .aboutState{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateLeft{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateLeft i{
+    font-size: 36px;
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateLeft h4{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateRight{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateRight i{
+    font-size: 36px;
+}
+
+.about .aboutInfo .aboutRight .aboutState .aboutStateRight h4{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.about .aboutInfo .aboutRight .btn{
+    background-color: #fa5a20;
+  margin-top: 30px;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.about .aboutInfo .aboutRight .btn:hover{
+    background-color: black;
+}
